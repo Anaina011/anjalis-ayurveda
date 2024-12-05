@@ -18116,7 +18116,8 @@ span.select2-selection.select2-selection--single:focus {
 
 .counter-area {
   background-image: url(../img/Rectangle\ 77.webp);
-  padding-top: 600px;
+  padding-top: 80px;
+  padding-bottom: 7%;
   background-size: cover;
   /* Ensures the image covers the entire div */
   background-position: center;
@@ -18129,25 +18130,25 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 1150px) {
   .counter-area {
-    padding-top: 600px;
+    padding-top: 80px;
   }
 }
 
 @media (max-width: 1150px) {
   .counter-area {
-    padding-top: 700px;
+    padding-top: 80px;
   }
 }
 
 @media (max-width: 300px) {
   .counter-area {
-    padding-top: 800px;
+    padding-top: 80px;
   }
 }
 
 @media (max-width: 270px) {
   .counter-area {
-    padding-top: 850px;
+    padding-top: 80px;
   }
 }
 
@@ -33147,36 +33148,71 @@ span.select2-selection.select2-selection--single:focus {
 } */
 
 .visionAndMission {
-  position: absolute;
-  top: 0;
+  padding-left: 7%;
+}
+
+.visionAndMission h5 {
+  color: #4CBB17;
+  font-size: 140%;
 }
 
 .visionAndMission h2 {
   color: #ffffff;
   text-align: center;
-  padding: 5%;
+  padding-bottom: 5%;
+  font-size: 300%
 }
 
 .visionAndMission p {
   color: #ffffff;
   text-align: left;
-  padding: 0% 15% 0% 15%;
+  padding: 0% 15% 0% 0%;
+  font-size: 110%;
+  margin: 0;
+  font-weight: 500;
+}
+
+.visionAndMission li {
+  color: #ffffff;
+  text-align: left;
+  padding: 0% 15% 0% 1%;
   font-size: 110%;
   margin: 0;
   font-weight: 400;
+  line-height: 130%;
+}
+
+.visionAndMission ul {
+  padding-bottom: 3%;
 }
 
 @media (max-width: 660px) {
   .visionAndMission p {
     padding: 0% 5% 0% 5% !important;
+    font-size: 90%;
+  }
+
+  .visionAndMission h5 {
     font-size: 100%;
+  }
+
+  .visionAndMission li {
+    font-size: 100%;
+  }
+  
+  .visionAndMission h2 {
+    font-size: 220%
   }
 }
 
 @media (max-width: 370px) {
   .visionAndMission p {
     padding: 0% 5% 0% 5% !important;
-    font-size: 100%;
+    font-size: 90%;
+  }
+
+  .visionAndMission h2 {
+    font-size: 180%
   }
 }
 
