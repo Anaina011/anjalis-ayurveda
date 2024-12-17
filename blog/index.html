@@ -8,7 +8,7 @@
     <!-- <link rel="stylesheet" href="blog.css" /> -->
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="ql.css">
-    
+
     <!--==============================
 	    All CSS File
 	============================== -->
@@ -317,13 +317,13 @@ Header Area
 
 
     <style>
-        .hashtagpostcard {
+        /* .hashtagpostcard {
             height: 400px;
         }
 
         .hashtagpostcard img {
             height: 190px;
-        }
+        } */
     </style>
 
 
@@ -354,7 +354,9 @@ Header Area
                     postCard.classList.add('col-xl-4', 'col-lg-4', 'col-md-4', 'col-sm-6', 'col-12', 'hashtagpostcontainer');
                     postCard.innerHTML = `
                 <div class="hashtagpostcard">
-                    <img src="https://dranjalisayurveda.com/blog/${post.featuredImage}" alt="Featured Image">
+                    <div class="hashtagpostcardimg">
+                        <img src="https://dranjalisayurveda.com/blog/${post.featuredImage}" alt="Featured Image">
+                    </div>
                     <h5>${post.title}</h5>
                     <p>${post.firstLine}</p>
                     <a href="${post.url}">Read more</a>
